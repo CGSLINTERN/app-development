@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:id="@+id/activity_main"
+    tools:context="com.cgsl.uploaddocument.MainActivity">
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/buttonChoose"
+            android:text="Choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+        android:layout_weight="1"
+        android:id="@+id/buttonUpload"
+        android:text="Upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:layout_below="@id/LinearLayout"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>
